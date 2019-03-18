@@ -13,6 +13,17 @@
 					<argument translate="true" name="title" xsi:type="string">Custom Tab</argument>
 				</arguments>
 			</block>
+	<block class="Magento\Catalog\Block\Product\View" name="number.of.pages" as="numberofpagesinfo" template="product/view/number_of_pages.phtml" group="detailed_info">
+                                <arguments>
+                                        <argument translate="true" name="title" xsi:type="string">Number Of Pages</argument>
+                                </arguments>
+			</block>
+			<block class="Magento\Catalog\Block\Product\View" name="file.size" as="filesize" template="product/view/file_size.phtml" group="detailed_info">
+                                <arguments>
+                                        <argument translate="true" name="title" xsi:type="string">File Size</argument>
+                                </arguments>
+                        </block>
+
 		</referenceBlock>
 	</body>
 	</page>
