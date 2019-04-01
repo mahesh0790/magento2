@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="urn:magento:framework:Acl/etc/acl.xsd">
+<acl>
+<resources>
+<resource id="Magento_Backend::admin">
+<resource id="Cmodule_CustomAdmin::parent" title="Custom Parent"
+sortOrder="10" >
+<resource id="Cmodule_CustomAdmin::firstchild"
+title="First Child" sortOrder="0" />
+<resource id="Cmodule_CustomAdmin::secondchild"
+title="Second Child" sortOrder="100" />
+</resource>
+</resource>
+</resources>
+</acl>
+</config>
